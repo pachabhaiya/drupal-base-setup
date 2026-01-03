@@ -1,0 +1,6 @@
+{
+    "name": "pachabhaiya/drupal-base-setup",
+    "description": "Recipe to install base Drupal core modules, required contrib modules, and apply basic site configuration.",
+    "type": "drupal-recipe",
+    "license": "MIT"
+}

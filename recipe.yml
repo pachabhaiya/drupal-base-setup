@@ -1,0 +1,3 @@
+name: 'Base Setup'
+description: "Installs core modules, download and enables required contrib modules, and applies basic site configuration."
+type: 'Site'
