@@ -1,3 +1,9 @@
 name: 'Base Setup'
 description: "Installs core modules, download and enables required contrib modules, and applies basic site configuration."
 type: 'Site'
+
+recipes:
+  - core/recipes/basic_html_format_editor
+  - core/recipes/full_html_format_editor
+  - core/recipes/administrator_role
+  - core/recipes/content_editor_role
