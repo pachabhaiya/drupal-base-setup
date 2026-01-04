@@ -20,7 +20,6 @@
         "drupal/dashboard": "^2.1",
         "drupal/editor_advanced_link": "^2.2",
         "drupal/editoria11y": "^2.2",
-        "drupal/env_libraries": "^1.2",
         "drupal/environment_indicator": "^4.0",
         "drupal/facets": "^3.0",
         "drupal/field_formatter_class": "^1.8",
