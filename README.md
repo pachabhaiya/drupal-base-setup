@@ -6,6 +6,12 @@ This recipe bootstraps a Drupal site by:
 - Downloading and enabling a set of contrib modules
 - Applying basic site configuration
 
+## Set minimum stability version
+
+```
+ddev composer config minimum-stability dev
+```
+
 ## Add repository
 
 ```

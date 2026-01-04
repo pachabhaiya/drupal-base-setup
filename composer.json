@@ -30,8 +30,6 @@
         "drupal/http_cache_control": "^2.6",
         "drupal/image_widget_crop": "^3.0",
         "drupal/inline_entity_form": "^3.0@RC",
-        "drupal/key_asymmetric": "^1.2",
-        "drupal/key_auth": "^2.2",
         "drupal/link_attributes": "^2.1",
         "drupal/linkit": "^7.0",
         "drupal/m4032404": "^2.0",
