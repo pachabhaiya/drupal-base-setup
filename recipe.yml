@@ -1,6 +1,6 @@
 name: 'Base Setup'
 description: "Installs core modules, download and enables required contrib modules, and applies basic site configuration."
-type: 'Site'
+type: 'drupal-recipe'
 
 recipes:
   - core/recipes/basic_html_format_editor
