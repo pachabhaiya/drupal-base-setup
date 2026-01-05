@@ -19,6 +19,7 @@ install:
   - ckeditor5
   - config
   - content_moderation
+  - workflows
   - contextual
   - menu_link_content
   - field_ui
@@ -94,6 +95,7 @@ install:
   - tagify
   - token_filter
   - twig_tweak
+  - trash
   - view_unpublished
   - views_infinite_scroll
   - webp
