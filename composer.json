@@ -8,12 +8,12 @@
         "drupal/backup_migrate": "^5.0",
         "drupal/better_exposed_filters": "^7.0",
         "drupal/better_social_sharing_buttons": "^4.1",
-        "drupal/block_field": "^1.0@RC",]
+        "drupal/block_field": "^1.0@RC",
         "drupal/coffee": "^2.0",
         "drupal/config_ignore": "^3.3",
         "drupal/config_split": "^2.0",
         "drupal/content_lock": "^3.0@alpha",
-        "drupal/csp": "^2.2",]
+        "drupal/csp": "^2.2",
         "drupal/editor_advanced_link": "^2.2",
         "drupal/editoria11y": "^2.2",
         "drupal/field_group": "^3.6",
