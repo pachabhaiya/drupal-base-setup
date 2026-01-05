@@ -9,6 +9,42 @@ recipes:
   - core/recipes/content_editor_role
 
 install:
+  # Core theme
+  - claro
+  # Core modules
+  # - block
+  - block_content
+  - breakpoint
+  - ckeditor5
+  - config
+  - content_moderation
+  - contextual
+  - menu_link_content
+  - field_ui
+  - inline_form_errors
+  - layout_builder
+  - layout_discovery
+  - media
+  - media_library
+  - menu_ui
+  - phpass
+  - path
+  - responsive_image
+  - search
+  - settings_tray
+  - taxonomy
+  - editor
+  - toolbar
+  - views
+  - views_ui
+  - datetime
+  - datetime_range
+  - file
+  - image
+  - link
+  - options
+  - telephone
+  # Contrib modules
   - address
   - backup_migrate
   - better_exposed_filters
@@ -21,9 +57,6 @@ install:
   - csp
   - editor_advanced_link
   - editoria11y
-  # - environment_indicator
-  # - facets
-  # - field_formatter_class
   - field_group
   - flood_control
   - focal_point
@@ -33,19 +66,15 @@ install:
   - inline_entity_form
   - link_attributes
   - linkit
-  # - m4032404
   - mailsystem
   - masquerade
-  # - media_alias_display
   - media_library_edit
   - media_library_form_element
   - memcache
   - menu_admin_per_menu
   - menu_item_extras
   - menu_link_attributes
-  # - menu_position
   - metatag
-  # - navigation_extra_tools
   - paragraphs
   - paragraphs_report
   - password_policy
@@ -54,21 +83,24 @@ install:
   - rabbit_hole
   - redirect
   - remove_http_headers
-  # - restui
   - scheduler
   - schema_metatag
   - search_api
-  # - search_api_solr
   - seckit
   - simple_sitemap
   - stage_file_proxy
-  # - storybook
   - svg_image
   - tagify
   - token_filter
   - twig_tweak
-  # - unpublished_node_permissions
   - view_unpublished
   - views_infinite_scroll
   - webp
   - weight
+
+config:
+  strict: false
+  actions:
+    system.theme:
+      simpleConfigUpdate:
+        admin: claro
