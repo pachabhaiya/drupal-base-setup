@@ -10,23 +10,20 @@ recipes:
 
 install:
   - address
-  - admin_toolbar
   - backup_migrate
   - better_exposed_filters
   - better_social_sharing_buttons
   - block_field
-  - chosen
   - coffee
   - config_ignore
   - config_split
   - content_lock
   - csp
-  - dashboard
   - editor_advanced_link
   - editoria11y
-  - environment_indicator
-  - facets
-  - field_formatter_class
+  # - environment_indicator
+  # - facets
+  # - field_formatter_class
   - field_group
   - flood_control
   - focal_point
@@ -36,19 +33,19 @@ install:
   - inline_entity_form
   - link_attributes
   - linkit
-  - m4032404
+  # - m4032404
   - mailsystem
   - masquerade
-  - media_alias_display
+  # - media_alias_display
   - media_library_edit
   - media_library_form_element
   - memcache
   - menu_admin_per_menu
   - menu_item_extras
   - menu_link_attributes
-  - menu_position
+  # - menu_position
   - metatag
-  - navigation_extra_tools
+  # - navigation_extra_tools
   - paragraphs
   - paragraphs_report
   - password_policy
@@ -57,20 +54,20 @@ install:
   - rabbit_hole
   - redirect
   - remove_http_headers
-  - restui
+  # - restui
   - scheduler
   - schema_metatag
   - search_api
-  - search_api_solr
+  # - search_api_solr
   - seckit
   - simple_sitemap
   - stage_file_proxy
-  - storybook
+  # - storybook
   - svg_image
   - tagify
   - token_filter
   - twig_tweak
-  - unpublished_node_permissions
+  # - unpublished_node_permissions
   - view_unpublished
   - views_infinite_scroll
   - webp
