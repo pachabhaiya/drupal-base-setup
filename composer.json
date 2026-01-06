@@ -58,5 +58,6 @@
         "drupal/views_infinite_scroll": "^2.0",
         "drupal/webp": "^1.0@RC",
         "drupal/weight": "^3.6"
-    }
+    },
+    "version": "1.0.0"
 }
