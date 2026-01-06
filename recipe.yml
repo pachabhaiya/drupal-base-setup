@@ -61,6 +61,7 @@ install:
   - flood_control
   - focal_point
   - http_cache_control
+  - honeypot
   - image_widget_crop
   - inline_entity_form
   - link_attributes
@@ -71,6 +72,7 @@ install:
   - media_library_edit
   - media_library_form_element
   - memcache
+  - memcache_admin
   - menu_admin_per_menu
   - menu_item_extras
   - menu_link_attributes
@@ -82,11 +84,12 @@ install:
   - quick_node_clone
   - rabbit_hole
   - redirect
+  - redirect_404
   - remove_http_headers
+  - robotstxt
   - sam
   - scheduler
   - schema_metatag
-  - search_api
   - seckit
   - simple_sitemap
   - stage_file_proxy
