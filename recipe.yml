@@ -83,6 +83,7 @@ install:
   - rabbit_hole
   - redirect
   - remove_http_headers
+  - sam
   - scheduler
   - schema_metatag
   - search_api
