@@ -104,13 +104,25 @@ install:
 config:
   strict: false
   actions:
+    block.block.claro_page_title:
+      createIfNotExists:
+        theme: claro
+        plugin: page_title_block
+        settings:
+          id: page_title_block
+          label: 'Page title'
+          label_display: '0'
+          provider: core
+      setRegion: header
+      setStatus: true
+    block.block.claro_primary_local_tasks:
+      setRegion: header
+      setStatus: true
     block.block.claro_admin:
       setStatus: false
     block.block.claro_branding:
       setStatus: false
     block.block.claro_local_tasks:
-      setStatus: false
-    block.block.claro_primary_local_tasks:
       setStatus: false
     block.block.claro_tools:
       setStatus: false
