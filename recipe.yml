@@ -33,7 +33,6 @@ install:
   - path
   - responsive_image
   - search
-  - settings_tray
   - taxonomy
   - editor
   - toolbar
