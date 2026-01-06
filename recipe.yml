@@ -61,11 +61,13 @@ install:
   - flood_control
   - focal_point
   - geolocation
+  - google_tag
   - http_cache_control
   - image_widget_crop
   - inline_entity_form
   - link_attributes
   - linkit
+  - login_emailusername
   - mailsystem
   - masquerade
   - media_library_edit
