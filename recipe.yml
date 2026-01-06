@@ -35,7 +35,6 @@ install:
   - search
   - taxonomy
   - editor
-  - toolbar
   - views
   - views_ui
   - datetime
