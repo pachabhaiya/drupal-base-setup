@@ -60,8 +60,6 @@ install:
   - field_group
   - flood_control
   - focal_point
-  - geolocation
-  - google_tag
   - http_cache_control
   - image_widget_crop
   - inline_entity_form
