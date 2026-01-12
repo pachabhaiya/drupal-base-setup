@@ -5,7 +5,6 @@ type: 'drupal-recipe'
 recipes:
   - core/recipes/administrator_role
   - core/recipes/content_editor_role
-  - core/recipes/core_recommended_admin_theme
   - core/recipes/document_media_type
   - core/recipes/image_media_type
   - core/recipes/remote_video_media_type
@@ -102,15 +101,3 @@ install:
   - views_infinite_scroll
   - webp
   - weight
-
-config:
-  strict: false
-  actions:
-    block.block.claro_branding:
-      setStatus: false
-    block.block.claro_tools:
-      setStatus: false
-    block.block.claro_admin:
-      setStatus: false
-    block.block.claro_local_tasks:
-      setStatus: false
